@@ -16,8 +16,3 @@ keywords:
 
 sources:
   - https://github.com/nowersvt/dassdgerhg
-
-dependencies:
-  - name: some-dependency
-    version: 1.2.3
-    repository: https://example.com/charts  # URL репозиторію для залежності (необов'язково)
