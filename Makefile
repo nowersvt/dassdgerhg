@@ -1,8 +1,8 @@
 CASSANDRA_CLUSTER_NAME := my-cassandra
 CASSANDRA_REPLICAS := 1
 CASSANDRA_IMAGE := cassandra:latest
-CASSANDRA_MEMORY_LIMIT := 2Gi
-CASSANDRA_CPU_LIMIT := 1
+CASSANDRA_MEMORY_LIMIT := 12Gi
+CASSANDRA_CPU_LIMIT := 2
 
 deploy-cassandra:
 	helm upgrade --install $(CASSANDRA_CLUSTER_NAME) ./cassandra-chart \
